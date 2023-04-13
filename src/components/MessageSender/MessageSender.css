@@ -1,0 +1,48 @@
+.messageSender__box{
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    height: 7rem;
+    border-radius: 10px;
+    padding: 1rem;
+}
+.messageSender__top{
+    display: flex;
+    padding-bottom: 10px;
+}
+.messageSender__top > form{
+    display: flex;
+    gap: 37px;
+}
+.messageSender__top > form > button{
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    padding: 5px 20px;
+    background-color: #2e81f4;
+    color: #ffff;
+}
+input{
+    padding: 10px 20px;
+    background-color: #d4d2d2;
+    border-radius: 50px;
+    margin-left: 0.5rem;
+    border: none;
+    outline: none;
+}
+.messageSender__top > url{
+    padding: 0 13px;
+}
+.messageSender__bottom{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 9px 5px;
+}
+.messageSender__bottom > div{
+    padding: 1rem;
+}
+.messageSender__bottom > div:hover{
+    background-color: lightgray;
+    padding: 1rem;
+    border-radius: 30px;
+}

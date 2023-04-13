@@ -1,0 +1,36 @@
+.reels{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.Feed__mainBox {
+  padding: 3% 16%;
+}
+.reels {
+  display: flex;
+}
+.feedreel__images {
+  height: 200px;
+  position: relative;
+  width: 120px;
+  border-radius: 10px;
+  margin-right: 10px;
+  transition: transform 100ms ease-in;
+  background-size: cover;
+  background-position: center center;
+  object-fit: cover;
+}
+.feedreel__images > h4 {
+  /* top: 155px; */
+  bottom: 20px;
+  left: 20px;
+  color: #ffff;
+  position: absolute;
+}
+.feedreel__images > img:hover {
+  transform: scale(1.07);
+}
+.feedReel__box {
+  display: flex;
+  justify-content: center;
+}
