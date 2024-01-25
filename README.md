@@ -1,11 +1,11 @@
 # Project Name
 
-A simple social media application allowing users to sign up, post short messages, follow other users, and view a personalized feed.
+TweetX is a simple social media application that allows users to sign up, post short messages, follow other users, and view a personalized feed.
 
 ## Technologies Used
 
 - React
-- Firebase (Authentication and Firestore for backend)
+- Firebase (Authentication and Firestore for the backend)
 - Tailwind CSS
 - UUID
 - React Router DOM
@@ -31,16 +31,10 @@ Make sure you have Node.js and npm installed on your machine.
     npm install
     ```
 
-3. **Set up Firebase**
-
-   - Create a Firebase project on the [Firebase Console](https://console.firebase.google.com/).
-   - Set up Firebase Authentication and Firestore.
-   - Add your Firebase configuration to the `src/firebase/firebase.js` file.
-
-4. **Start the development server**
+3. **Start the development server**
 
     ```bash
-    npm start
+    npm run dev
     ```
 
     Visit [http://localhost:3000](http://localhost:3000) to view the application in your browser.
@@ -52,7 +46,7 @@ Make sure you have Node.js and npm installed on your machine.
   - `components`: React components
     - `Feed.js`: Component for displaying user posts
     - `Users.js`: Component for listing users
-    - `Profile.js`: Component for user profile, including posts, followers, and following
+    - `Profile.js`: Component for the user profile, including posts, followers, and following
     - `Header.js`: Header component with navigation
   - `pages`: React components representing different pages
     - `Home.js`: Home page with main content
@@ -73,13 +67,13 @@ Make sure you have Node.js and npm installed on your machine.
    - Users can post short text messages similar to Twitter.
 
 3. **Feed**
-   - Users have a personalized feed showing posts from users they follow.
+   - Users have a personalized feed showing posts from other users.
 
 4. **User Profile**
    - Users have profiles displaying their posts, followers, and following.
 
-5. **Follow/Unfollow**
-   - Users can follow and unfollow other users.
+5. **Follow**
+   - Users can follow other users.
 
 6. **Logout**
    - Users can log out of the application.
@@ -92,8 +86,8 @@ The application is deployed and hosted on [Netlify](https://www.netlify.com/).
 
 ## Contributors
 
-- Your Name
+- Aditya [https://aditya-fawn.vercel.app/]
 
-## License
+## Suggestions/Feedback
 
-This project is licensed under the [MIT License](LICENSE).
+Feel free to give suggestions and feedback for the application, which is currently in the development phase. If you have any suggestions, please email: [adityananu157@gmail.com].
